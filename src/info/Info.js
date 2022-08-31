@@ -75,19 +75,19 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'hiking',
+            emoji: '🥾'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'dogs',
+            emoji: '🐕'
         }
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
             title: "City Tours",
             live: "https://city-tours-seven.vercel.app/",
