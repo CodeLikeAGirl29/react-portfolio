@@ -1,0 +1,304 @@
+$c5: #555;
+$ins: inset;
+$o-t: 0 -8px 6px -6px $c5;
+$o-b: 0 8px 6px -6px $c5;
+$o-l: -8px 0 6px -6px $c5;
+$o-r: 8px 0 6px -6px $c5;
+$o-tl: -8px -8px 6px -6px $c5;
+$o-tr: 8px -8px 6px -6px $c5;
+$o-bl: -8px 8px 6px -6px $c5;
+$o-br: 8px 8px 6px -6px $c5;
+$o-tb: $o-t, $o-b;
+$o-lr: $o-l, $o-r;
+$o-glow: 0 0 10px 2px $c5;
+$i-t: $ins $o-b;
+$i-b: $ins $o-t;
+$i-l: $ins $o-r;
+$i-r: $ins $o-l;
+$i-tl: $ins $o-tr;
+$i-tr: $ins $o-tl;
+$i-bl: $ins $o-br;
+$i-br: $ins $o-bl;
+$i-tb: $ins $o-b, $ins $o-t;
+$i-lr: $ins $o-r, $ins $o-l;
+$i-glow: $ins $o-glow;
+$bl: block;
+$in: inline;
+$ib: inline-block;
+$fl: flex;
+$gr: grid;
+$rl: relative;
+$ab: absolute;
+$fx: fixed;
+$r: row;
+$rr: row-reverse;
+$c: column;
+$cr: column-reverse;
+$nw: nowrap;
+$w: wrap;
+$wr: wrap-reverse;
+$bs: baseline;
+$ce: center;
+$fs: flex-start;
+$fe: flex-end;
+$sa: space-around;
+$sb: space-between;
+$st: stretch;
+$rnw: $r $nw;
+$rw: $r $w;
+$rwr: $r $wr;
+$rrnw: $rr $nw;
+$rrw: $rr $w;
+$rrwr: $rr $wr;
+$cnw: $c $nw;
+$cw: $c $w;
+$cwr: $c $wr;
+$crnw: $cr $nw;
+$crw: $cr $w;
+$crwr: $cr $wr;
+$ta-c: center;
+$ta-l: left;
+$ta-r: right;
+$ta-j: justify;
+$va-b: baseline;
+$va-m: middle;
+$va-sb: sub;
+$va-sp: super;
+$va-tp: top;
+$va-ttp: text-top;
+$va-bt: bottom;
+$va-tbt: text-bottom;
+
+@mixin bg(
+    $bg-i: null,
+    $bg-s: null,
+    $bg-r: null,
+    $bg-p: null,
+    $bg-a: null,
+    $bg-b: null,
+    $bg-c: null,
+    $bg-o: null
+){
+    background-image: $bg-i;
+    background-size: $bg-s;
+    background-repeat: $bg-r;
+    background-position: $bg-p;
+    background-attachment: $bg-a;
+    background-blend-mode: $bg-b;
+    background-clip: $bg-c;
+    background-origin: $bg-o
+}
+
+@mixin br(
+    $br-tp: null,
+    $br-rg: null,
+    $br-bt: null,
+    $br-lf: null,
+    $br-im: null,
+    $br-isr: null,
+    $br-iwd: null,
+    $br-irp: null,
+    $br-iot: null,
+    $br-isl: null
+){
+    border-top: $br-tp;
+    border-right: $br-rg;
+    border-bottom: $br-bt;
+    border-left: $br-lf;
+    border-image: $br-im;
+    border-image-source: $br-isr;
+    border-image-width: $br-iwd;
+    border-image-repeat: $br-irp;
+    border-image-outset: $br-iot;
+    border-image-slice: $br-isl
+}
+
+@mixin bm(
+    $bm-wd: null,
+    $bm-hg: null,
+    $bm-mxwd: null,
+    $bm-mxhg: null,
+    $bm-miwd: null,
+    $bm-mihg: null,
+    $bm-mg: null,
+    $bm-pd: null,
+    $bm-tp: null,
+    $bm-rg: null,
+    $bm-bt: null,
+    $bm-lf: null,
+    $bm-dp: null,
+    $bm-ps: null
+){
+    width: $bm-wd;
+    height: $bm-hg;
+    max-width: $bm-mxwd;
+    max-height: $bm-mxhg;
+    min-width: $bm-miwd;
+    min-height: $bm-mihg;
+    margin: $bm-mg;
+    padding: $bm-pd;
+    top: $bm-tp;
+    right: $bm-rg;
+    bottom: $bm-bt;
+    left: $bm-lf;
+    display: $bm-dp;
+    position: $bm-ps
+}
+
+@mixin fb(
+    $fb-ff: null,
+    $fb-ai: null,
+    $fb-ac: null,
+    $fb-as: null,
+    $fb-jc: null,
+    $fb-fl: null,
+    $fb-fb: null,
+    $fb-fg: null,
+    $fb-fs: null,
+    $fb-fo: null
+){
+    flex-flow: $fb-ff;
+    align-items: $fb-ai;
+    align-content: $fb-ac;
+    align-self: $fb-as;
+    justify-content: $fb-jc;
+    flex: $fb-fl;
+    flex-basis: $fb-fb;
+    flex-grow: $fb-fg;
+    flex-shrink: $fb-fs;
+    order: $fb-fo
+}
+
+@mixin other(
+    $ot-zi: null,
+    $ot-op: null,
+    $ot-br: null,
+    $ot-of: null,
+    $ot-ofx: null,
+    $ot-ofy: null,
+    $ot-vis: null,
+    $ot-tsi: null,
+    $ot-tsf: null,
+    $ot-cr: null,
+    $ot-bs: null
+){
+    z-index: $ot-zi;
+    opacity: $ot-op;
+    border-radius: $ot-br;
+    overflow: $ot-of;
+    overflow-x: $ot-ofx;
+    overflow-y: $ot-ofy;
+    visibility: $ot-vis;
+    transition: $ot-tsi;
+    transform: $ot-tsf;
+    cursor: $ot-cr;
+    box-shadow: $ot-bs
+}
+
+@mixin tf(
+    $tf-cl: null,
+    $tf-fm: null,
+    $tf-fs: null,
+    $tf-fw: null,
+    $tf-ls: null,
+    $tf-lh: null,
+    $tf-ta: null,
+    $tf-td: null,
+    $tf-ti: null,
+    $tf-ts: null,
+    $tf-tt: null,
+    $tf-to: null,
+    $tf-va: null,
+    $tf-whs: null,
+    $tf-wb: null,
+    $tf-ws: null,
+    $tf-ww: null,
+    $tf-wm: null
+){
+    color: $tf-cl;
+    font-family: $tf-fm;
+    font-size: $tf-fs;
+    font-weight: $tf-fw;
+    letter-spacing: $tf-ls;
+    line-height: $tf-lh;
+    text-align: $tf-ta;
+    text-decoration: $tf-td;
+    text-indent: $tf-ti;
+    text-shadow: $tf-ts;
+    text-transform: $tf-tt;
+    text-overflow: $tf-to;
+    vertical-align: $tf-va;
+    white-space: $tf-whs;
+    word-break: $tf-wb;
+    word-spacing: $tf-ws;
+    word-wrap: $tf-ww;
+    writing-mode: $tf-wm
+}
+
+@mixin big-container($dis, $pos){
+    @include bm(100%, 100%);
+    @if $dis and $pos == rl{
+        @include bm($bm-dp: $dis, $bm-ps: $rl)
+    }
+    @else if $dis and $pos == ab{
+        @include bm($bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $ab)
+    }
+    @else if $dis and $pos == fx{
+        @include bm($bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+}
+
+@mixin sticky-banner($dis, $pos){
+    @if $dis and $pos == tp{
+        @include bm(100%, $bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == bt{
+        @include bm(100%, $bm-bt: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == lf{
+        @include bm($bm-hg: 100%, $bm-tp: 0, $bm-lf: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+    @else if $dis and $pos == rg{
+        @include bm($bm-hg: 100%, $bm-tp: 0, $bm-rg: 0, $bm-dp: $dis, $bm-ps: $fx)
+    }
+}
+
+@mixin relative-center{
+    margin-left: auto;
+    margin-right: auto;
+    @include bm($bm-dp: $bl, $bm-ps: $rl)
+}
+
+@mixin sticky-center($dis, $pos){
+    @include bm($bm-tp: 50%, $bm-lf: 50%);
+    @if $dis{
+        @include bm($bm-dp: $dis)
+    }
+    @if $pos{
+        @include bm($bm-ps: $pos)
+    }
+}
+
+@mixin flex-center($flow){
+    @if $flow{
+        @include fb($fb-ff: $flow)
+    }
+    @include fb($fb-ai: $ce, $fb-jc: $ce)
+}
+
+@mixin pseudo{
+    @include bm($bm-dp: $bl, $bm-ps: $ab);
+    content: ""
+}
+
+@mixin big-pseudo{
+    @include bm(100%, 100%, $bm-tp: 0, $bm-lf: 0);
+    @include pseudo
+}
+
+@mixin animation($name, $arg){
+    animation: #{$name} #{$arg};
+        @keyframes #{$name}{
+            @content;
+        }
+}

@@ -18,7 +18,7 @@ function Terminal(props) {
             <i className={classNames(iconClass, Style.green)}/>
          </Box>
          <Box py={{xs: '0.7rem', md: '1.5rem'}} px={{xs: '1.7rem', md: '1.5rem'}} borderRadius={'0 0 0.5rem 0.5rem'}
-              sx={{backgroundColor: '#27242f'}} fontSize={'1.3rem'} fontFamily={'Courier New, Courier, monospace'}>
+              sx={{backgroundColor: '#27242f'}} fontSize={'1.3rem'} fontFamily={'Poppins, sans-serif'}>
             {text}
          </Box>
       </Box>
