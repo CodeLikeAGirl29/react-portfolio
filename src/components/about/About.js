@@ -10,7 +10,7 @@ export default function About() {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
                 about{firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>

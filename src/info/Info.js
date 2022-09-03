@@ -65,8 +65,8 @@ export const info = {
     bio: "I am a strategic and creative website developer who specializes in delivering highly impactful websites. I have strong technical skills and experience in web development, software development, and project management. I have a proven track record of consistently meeting deadlines and maximizing results. I am a team player who is able to work effectively in a fast-paced environment.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'postgresql', 'nodejs', 'express', 'html/css'],
-            exposedTo: ['nodejs', 'python', 'react native']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'postgresql', 'nodejs', 'express', 'html/css', 'heroku'],
+            exposedTo: ['nodejs', 'python', 'react native', 'restful api']
         }
     ,
     hobbies: [
@@ -85,6 +85,10 @@ export const info = {
         {
             label: 'dogs',
             emoji: '🐕'
+        },
+        {
+            label: 'target practice',
+            emoji: '🎯'
         }
     ],
     portfolio: [
