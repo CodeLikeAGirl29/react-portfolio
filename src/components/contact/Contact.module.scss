@@ -19,6 +19,11 @@ body{
     justify-content: center;
 }
 
+.paragraph {
+    column-count: 2;
+    column-gap: 20px;
+}
+
 form{
     @include bm(400px, $bm-dp: $fl);
     @include flex-center($cw);
