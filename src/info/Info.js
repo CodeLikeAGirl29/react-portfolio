@@ -7,7 +7,7 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.jpg"
 import mock7 from "../img/mock7.png"
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["#15DB95", "rgb(166,104,255)"];
 
 export const info = {
     firstName: "Lindsey",
