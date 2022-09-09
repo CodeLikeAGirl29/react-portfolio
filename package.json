@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.1.9",
     "@uiball/loaders": "^1.2.6",
     "ajv": "^6.12.6",
+    "aos": "^2.3.4",
     "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
     "moment": "^2.29.4",
