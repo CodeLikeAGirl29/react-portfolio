@@ -5,6 +5,7 @@ import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.jpg"
+import mock7 from "../img/mock7.png"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -97,6 +98,12 @@ export const info = {
             live: "https://city-tours-seven.vercel.app/",
             source: "https://github.com/codelikeagirl29/city-tours",
             image: mock1
+        },
+        {
+            title: "Jobspace",
+            live: "https://my-jobspace.herokuapp.com/",
+            source: "https://github.com/CodeLikeAGirl29/my-jobspace",
+            image: mock7
         },
         {
             title: "MyReads",
