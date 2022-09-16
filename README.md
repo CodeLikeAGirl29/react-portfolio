@@ -13,7 +13,7 @@ Contact email is [admin@lindseyk.dev](mailto:admin@lindseyk.dev)
 
 ![SCSS](https://camo.githubusercontent.com/7436ecde5696a856dd865d3fc81fa2612054f468e12fdb5d591e7a19a46fc9f7/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5361737326636f6c6f723d434336363939266c6f676f3d53617373266c6f676f436f6c6f723d464646464646266c6162656c3d)
 
-![my-portfolio](https://user-images.githubusercontent.com/25946305/158276398-86f02299-642f-4f3b-8512-6df4231adf50.jpeg)
+![my-portfolio](https://res.cloudinary.com/codelikeagirl29/image/upload/v1663322475/projects/lindseyk-dev_bh5dqg.png)
 
 ---
 
