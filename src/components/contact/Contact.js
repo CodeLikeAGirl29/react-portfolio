@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./Contact.module.scss";
 import { Box } from "@mui/material";
+import useAnalyticsEventTracker from "../useAnalyticsEventTracker";
 
 const FORM_ENDPOINT =
-	"https://public.herotofu.com/v1/34970600-2a01-11ed-a7a0-3f26160640a2"; // TODO - fill on the later step
-
+	"https://public.herotofu.com/v1/34970600-2a01-11ed-a7a0-3f26160640a2";
+	
 const Contact = () => {
+	const gaEventTracker = useAnalyticsEventTracker("Contact");
 	const [submitted, setSubmitted] = useState(false);
 	const handleSubmit = () => {
 		setTimeout(() => {
@@ -56,7 +58,10 @@ const Contact = () => {
 					<textarea placeholder='Message' name='message' required />
 				</div>
 				<div>
-					<button type='submit'> Send it! </button>
+					<button type='submit' onClick={() => gaEventTracker("email")}>
+						{" "}
+						Send it!{" "}
+					</button>
 				</div>
 			</form>
 		</Box>
