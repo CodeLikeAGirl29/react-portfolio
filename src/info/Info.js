@@ -24,7 +24,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in Raleigh, NC'
         },
         {
             emoji: "💼",
