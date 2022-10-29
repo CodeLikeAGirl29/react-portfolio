@@ -4,8 +4,9 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
-import mock6 from "../img/mock6.jpg"
+import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
 
 export let colors = ["#15DB95", "rgb(166,104,255)"];
 
@@ -103,37 +104,43 @@ export const info = {
             title: "Jobspace",
             live: "https://my-jobspace.herokuapp.com/",
             source: "https://github.com/CodeLikeAGirl29/my-jobspace",
-            image: mock7
+            image: mock2
         },
         {
             title: "MyReads",
             live: "https://myreads-react.vercel.app/",
             source: "https://github.com/CodeLikeAGirl29/nd0191-c1-myreads",
-            image: mock2
+            image: mock3
         },
         {
             title: "BMW Blog",
             live: "https://codelikeagirl29.github.io/my-blog/",
             source: "https://github.com/codelikeagirl29/my-blog",
-            image: mock3
+            image: mock4
         },
         {
-            title: "Students Directory",
-            live: "https://students-pagination-list.netlify.app/",
-            source: "https://github.com/CodeLikeAGirl29/students-pagination",
-            image: mock4
+            title: "Space Kitties",
+            live: "https://catstronaut-bylindseyk.netlify.app/",
+            source: "https://github.com/CodeLikeAGirl29/odyssey-lift-off-client",
+            image: mock5
         },
         {
             title: "Unsplash Images",
             live: "https://xhffdr.csb.app/",
             source: "https://github.com/CodeLikeAGirl29/unsplash-api",
-            image: mock5
+            image: mock8
         },
         {
             title: "Node Projects",
             live: "https://projects-nodejs-express.herokuapp.com",
             source: "https://github.com/CodeLikeAGirl29/nodejs-and-express",
             image: mock6
+        },
+        {
+            title: "Paws & Claws",
+            live: "https://paws-claws-express.herokuapp.com/",
+            source: "https://github.com/CodeLikeAGirl29/paws-claws-express",
+            image: mock7
         }
     ]
 }
