@@ -1,13 +1,13 @@
-import React from "react";
-import "./App.module.scss";
-import BaseLayout from "./components/BaseLayout";
-import { BrowserRouter } from "react-router-dom";
-import Favicon from "react-favicon";
-import Overlay from "./components/Overlay";
+import React from 'react';
+import './styles.css';
+import BaseLayout from './components/BaseLayout';
+import { BrowserRouter } from 'react-router-dom';
+import Favicon from 'react-favicon';
+import Overlay from './components/Overlay';
 
 // google analytics
 import ReactGA from 'react-ga';
-const TRACKING_ID = "UA-179589074-1"; // tracking id
+const TRACKING_ID = 'UA-179589074-1'; // tracking id
 ReactGA.initialize(TRACKING_ID);
 
 export default class App extends React.Component {
@@ -24,7 +24,7 @@ export default class App extends React.Component {
 
 	componentDidMount() {
 		this.autoshowOverlay = setTimeout(
-			function () {
+			function() {
 				this.handleShowOverlay();
 			}.bind(this),
 			3000

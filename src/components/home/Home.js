@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Style from "./Home.module.scss";
+import Style from '../../styles.css';
 import me from "../../img/self.png";
 import classNames from "classnames";
 import EmojiBullet from "./EmojiBullet";

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import ReactGA from "react-ga";
-import Style from "./Navbar.module.scss";
+import Style from '../styles.css';
 import Toggler from "./home/Toggler";
 import { Link, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
