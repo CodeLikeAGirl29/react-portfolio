@@ -36,10 +36,11 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-export default function Portfolio() {
-	const classes = useStyles();
+export default function Portfolio(props) {
+	// const classes = useStyles();
+	const { classes } = props;
 	return (
-		<div>
+		<div className={classes.root}>
 			<Typography variant='h2' align='center' className={classes.custom}>
 				Projects
 			</Typography>

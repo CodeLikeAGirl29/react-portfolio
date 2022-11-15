@@ -1,12 +1,12 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
-import mock6 from "../img/mock6.png"
-import mock7 from "../img/mock7.png"
-import mock8 from "../img/mock8.png"
+import self from "../img/self.png";
+import mock1 from "../img/mock1.png";
+import mock2 from "../img/mock2.png";
+import mock3 from "../img/mock3.png";
+import mock4 from "../img/mock4.png";
+import mock5 from "../img/mock5.png";
+import mock6 from "../img/mock6.png";
+import mock7 from "../img/mock7.png";
+import mock8 from "../img/mock8.png";
 
 export let colors = ["#15DB95", "rgb(166,104,255)"];
 
@@ -20,12 +20,12 @@ export const info = {
     baseColor: colors[0],
     miniBio: [
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: "☕",
+            text: "fueled by coffee"
         },
         {
-            emoji: '🌎',
-            text: 'based in Raleigh, NC'
+            emoji: "🌎",
+            text: "based in Raleigh, NC"
         },
         {
             emoji: "💼",
@@ -39,58 +39,58 @@ export const info = {
     socials: [
         {
             link: "https://facebook.com/codelikeagirl91",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
+            icon: "fa fa-facebook",
+            label: "facebook"
         },
         {
             link: "https://instagram.com/fiercely.lindseyy",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
+            icon: "fa fa-instagram",
+            label: "instagram"
         },
         {
             link: "https://github.com/codelikeagirl29",
             icon: "fa fa-github",
-            label: 'github'
+            label: "github"
         },
         {
             link: "https://linkedin.com/in/lindsey-howard",
             icon: "fa fa-linkedin",
-            label: 'linkedin'
+            label: "linkedin"
         },
         {
             link: "https://twitter.com/dev_lindseyk",
             icon: "fa fa-twitter",
-            label: 'twitter'
+            label: "twitter"
         }
 
     ],
-    bio: "I am a strategic and creative website developer who specializes in delivering highly impactful websites. I have strong technical skills and experience in web development, software development, and project management. I have a proven track record of consistently meeting deadlines and maximizing results. I am a team player who is able to work effectively in a fast-paced environment.",
+    bio: "I am a dependable web developer with a strong work ethic and an excellent customer service record. Deeply knowledgeable in a wide variety of computer languages, including React, JavaScript, Node, and PostgreSQL while understanding principles and techniques of initial website construction and ongoing maintenance. Strong communicator and works best under pressure with tight deadlines.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'postgresql', 'nodejs', 'express', 'html/css', 'heroku'],
-            exposedTo: ['nodejs', 'python', 'react native', 'restful api']
+            proficientWith: ["javascript", "react", "git", "github", 'postgresql', "nodejs", "express", "html/css", "heroku"],
+            exposedTo: ["python", "react native", "restful api"]
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: "reading",
+            emoji: "📖"
         },
         {
-            label: 'hiking',
-            emoji: '🥾'
+            label: "hiking",
+            emoji: "🥾"
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: "movies",
+            emoji: "🎥"
         },
         {
-            label: 'dogs',
-            emoji: '🐕'
+            label: "dogs",
+            emoji: "🐕"
         },
         {
-            label: 'target practice',
-            emoji: '🎯'
+            label: "target practice",
+            emoji: "🎯"
         }
     ],
     portfolio: [
