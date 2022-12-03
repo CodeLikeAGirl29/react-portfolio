@@ -46,8 +46,7 @@ export default function BaseLayout() {
 						width={'100%'}
 					>
 						<p>
-							page created with &hearts; by{' '}
-							<a href={'https://lindseyk.dev'}>Lindsey</a>
+							Powered by <i class="lab la-react"></i>
 						</p>
 						<p>&copy; 2022</p>
 					</Box>
