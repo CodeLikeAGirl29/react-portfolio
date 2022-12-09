@@ -5,7 +5,7 @@ A clean and simple portfolio template built with HTML, CSS and React.js.
 Link can be found [here](http://www.lindseyk.dev).
 Contact email is [admin@lindseyk.dev](mailto:admin@lindseyk.dev)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8571aff059cd4671adde383c4bedcfca)](https://www.codacy.com/gh/CodeLikeAGirl29/react-portfolio/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CodeLikeAGirl29/react-portfolio&amp;utm_campaign=Badge_Grade)
+[![Codiga Badge](https://api.codiga.io/project/35228/score/svg)
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
