@@ -7,8 +7,11 @@ Contact email is [admin@lindseyk.dev](mailto:admin@lindseyk.dev)
 
 ![Codiga Badge](https://api.codiga.io/project/35228/score/svg)
 
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=react-portfolio-oy464r6f8-codelikeagirl29)
+> Deploy to ***Vercel***
+> 
+> [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCodeLikeAGirl29%2Freact-portfolio)
 
+---
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
