@@ -2,7 +2,7 @@
 
 A clean and simple portfolio template built with HTML, CSS and React.js.
 
-Link can be found [here](http://www.lindseyk.dev).
+Link can be found [here](https://react-portfolio-oy464r6f8-codelikeagirl29.vercel.app/).
 Contact email is [admin@lindseyk.dev](mailto:admin@lindseyk.dev)
 
 ![Codiga Badge](https://api.codiga.io/project/35228/score/svg)
