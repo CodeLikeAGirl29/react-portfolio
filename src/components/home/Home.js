@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Style from '../../styles.css';
-import me from "../../img/self.png";
+import me from "../../img/self.jpg";
 import classNames from "classnames";
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
