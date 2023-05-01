@@ -38,7 +38,7 @@ export default function BaseLayout() {
         justifyContent={"space-between"}
       >
         <Grid item>
-          <Navbar darkMode={darkMode} handleClick={handleClick} />
+          <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} />
         </Grid>
         <Grid item flexGrow={1}>
           <Routes>
