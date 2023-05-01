@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './App.module.css';
 import BaseLayout from './components/BaseLayout';
 import { BrowserRouter } from 'react-router-dom';
 import Favicon from 'react-favicon';

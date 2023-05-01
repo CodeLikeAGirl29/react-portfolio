@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../styles.css';
+import './Contact.module.css';
 import { Box } from "@mui/material";
 import useAnalyticsEventTracker from "../useAnalyticsEventTracker";
 
