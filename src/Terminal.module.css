@@ -1,0 +1,1 @@
+.shadowed{box-shadow:0 0.5rem 1rem rgba(0,0,0,0.4)}i{padding-left:0.5rem}i.red{color:#ff6057}i.amber{color:#ffbd2e}i.green{color:#27c93f}.terminal p,.terminal li{margin:1rem 0;color:#f8f8f8}.terminal a,.terminal a:visited{animation:changeColors 3s infinite;font-weight:bold}@keyframes changeColors{0%{color:#00a47f}33.3%{color:#1d91e3}66.6%{color:#d419fe}100%{color:#00a47f}}
