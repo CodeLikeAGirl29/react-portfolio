@@ -2,8 +2,8 @@
 
 A clean and simple portfolio template built with HTML, CSS and React.js.
 
-Link can be found [here](https://react-portfolio-oy464r6f8-codelikeagirl29.vercel.app/).
-Contact email is [admin@lindseyk.dev](mailto:admin@lindseyk.dev)
+Link can be found [here](https://lhreactportfolio.vercel.app/).
+Contact email is [lindseykdev@gmail.com](mailto:lindseykdev@gmail.com)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/react-portfolio/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/react-portfolio)
 
