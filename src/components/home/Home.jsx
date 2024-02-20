@@ -1,4 +1,3 @@
-import React from "react";
 import Style from "./Home.module.scss";
 import me from "../../img/self.jpg";
 import classNames from "classnames";

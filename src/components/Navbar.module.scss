@@ -1,23 +1,23 @@
 @import "../variables.modules";
 
 nav {
-  transition: $transition;
+	transition: $transition;
 }
 
 .active {
-  border-bottom: 5px solid;
-  border-image-slice: 1;
+	border-bottom: 5px solid black;
+	border-image-slice: 1;
 }
 
 li {
-  transition: $transition;
+	transition: $transition;
 
-  &:hover {
-    transform: translateY(-3px);
-    transition: $transition;
-  }
+	&:hover {
+		transform: translateY(-3px);
+		transition: $transition;
+	}
 }
 
 .link:hover {
-  color: unset;
+	color: unset;
 }
